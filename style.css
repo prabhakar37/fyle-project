@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+:root{
+    /* width: 1200px; */
+}
+
+.content{
+    width: 1000px;
+    display: flex;
+    border: 1px solid brown;
+
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid brown; */
+
+}
+
+#h-left{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+#in-left{
+    margin-top: 20%;
+    /* border: 1px solid green; */
+}
+
+#in-left h4{
+    color: #BB2D3B;
+}
+
+#in-left p{
+    margin: 20px 0;
+}
+
+#h-right{
+    width: 50%;
+    /* overflow: hidden; */
+    padding: 20px 20px;
+    /* border: 1px solid black; */
+}
+
+#h-right img{
+    margin-left: 50px;
+    width:80%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+
+/* section 2 */
+
+#slide-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 243, 240);
+    /* border: 1px solid green; */
+}
+#inner-slide{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+#sec-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.sub-sec1{
+    width: 40%;
+}
+
+.sub-sec2{
+    width: 60%;
+    margin-top: 3rem;
+}
+
+#sec-2{
+    display: flex;
+    overflow: scroll;
+
+}
+#sec-2 img{
+    height: 300px;
+    width: 220px;
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;    
+}
+
+/* pagination */
+
+
+/* project  */
+
+#project{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#inner-project{
+    width: 1000px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+#proj-top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 0;
+    text-align: center;
+}
+#proj-bottom{
+    display: flex;
+    gap: 1.5rem;
+}
+
+#proj-img{
+    width: 70%;
+}
+
+#proj-img img{
+    height: 500px;
+}
+
+#proj-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(243, 229, 248);
+}
+
+.cards{
+    margin: 1rem;
+}
+
+
+
+
+/*  stats */
+
+#stats{
+    display: flex;
+    justify-content: center;
+}
+
+#inner-stat{
+    display: flex;
+    flex-direction: column;
+}
+
+#stats-top{
+    text-align: center;
+}
+
+#stats-bottom{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 1rem;
+}
+
+.stat-card{
+    height: 200px;
+    width: 200px;
+    border: 1px solid palevioletred;
+}
